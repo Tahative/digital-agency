@@ -3,9 +3,9 @@
     padding: 0px;
 }
 .menu-container{
-    background-color: rgb(61, 48, 48);
+    background-color: rgb(77, 75, 75);
     padding: 20px;
-    color: aliceblue;
+    color: white;
     list-style: none;
     display: flex;
     align-items: center;
@@ -13,7 +13,7 @@
 }
 
 .logo-pic{
-    width: 150px;
+    width: 100px;
     
 }
 .menus{
@@ -21,13 +21,12 @@
 }
 .item{
     margin-right: 10px;
-    padding-right: 7px;
-    font-size: 20px;
-    margin-bottom: 13px;
+    padding-right: 15px;
+    font-size: 18px;
     cursor: pointer;
 }
 .item:hover{
-    color: aqua;
+    color: blue;
 }
 .banner-img{
     width: 300px;
@@ -35,14 +34,56 @@
 .banner-container{
     display: flex;
     justify-content: space-around;
+    padding: 10px;
     align-items:center;
+
     color: white;
     height: 100vh;
-    border: 2px solid gray;
+    border: 2px solid rgb(56, 54, 54);
     background-image: url(/images/background.png),
-    linear-gradient(45deg, #1a0303, #3b2828);
+    linear-gradient(45deg,  rgb(8, 8, 8), #2e2e2e);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.title{
+
+    .title{
     font-size: 55px;
     font-weight: bold
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    /* border-radius: 5px; */
+    border: none;
+    cursor: pointer;
+}
+/* This is about us section */
+
+.about-title{
+
+    text-align: center;
+    font-weight:bold;
+    font-size: 50px;
+    padding-top: 10px;
+    
+}
+.text{
+    text-align:end;
+}
+.about-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+{
+     
 }
