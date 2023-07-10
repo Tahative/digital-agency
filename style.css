@@ -29,3 +29,20 @@
 .item:hover{
     color: aqua;
 }
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    color: white;
+    height: 100vh;
+    border: 2px solid gray;
+    background-image: url(/images/background.png),
+    linear-gradient(45deg, #1a0303, #3b2828);
+}
+.title{
+    font-size: 55px;
+    font-weight: bold
+}
