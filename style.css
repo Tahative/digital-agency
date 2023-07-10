@@ -2,3 +2,30 @@
     margin: 0px;
     padding: 0px;
 }
+.menu-container{
+    background-color: rgb(61, 48, 48);
+    padding: 20px;
+    color: aliceblue;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-pic{
+    width: 150px;
+    
+}
+.menus{
+    display: flex;
+}
+.item{
+    margin-right: 10px;
+    padding-right: 7px;
+    font-size: 20px;
+    margin-bottom: 13px;
+    cursor: pointer;
+}
+.item:hover{
+    color: aqua;
+}
