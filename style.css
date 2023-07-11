@@ -46,13 +46,10 @@
     background-repeat: no-repeat;
 }
 
-    .title{
-    font-size: 55px;
-    font-weight: bold
-}
+   
 .description{
-    font-size: 18px;
-    margin-top: 15px;
+    font-size: 27px;
+    font-weight: bold;
     margin-bottom: 15px;
 
 }
@@ -67,23 +64,39 @@
 }
 /* This is about us section */
 
-.about-title{
+.title{
+    font-size:55px;
+    font-weight: bold;
 
-    text-align: center;
-    font-weight:bold;
-    font-size: 50px;
-    padding-top: 10px;
+}
+.description{
+    font-size: 28px;
+    font-weight: bold;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
     
 }
-.text{
-    text-align:end;
+.btn{
+    padding:10px 20px;
+    background-color:red;
+    color: white;
+    border: none;
+    
+    
 }
+
 .about-container{
     display: flex;
-    flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
+    flex-direction:row-reverse;
+    padding: 10px;
 }
-{
-     
+.about-title{
+    text-align: center;
+    padding-top:20px;
+}
+.lorem{
+    padding-bottom: 10px;
 }
